@@ -1,23 +1,15 @@
-# UniversityDWH
-Proyecto de Data Warehouse universitario con dbt (ETL/ELT) y Power BI
-# UniversityDWH – dbt + Power BI
+Welcome to your new dbt project!
 
-Proyecto de **Data Warehouse universitario** usando **dbt** para modelado/transformaciones (ETL/ELT) y **Power BI** para visualización.  
-Demuestro habilidades de integración de datos, modelado en capas (staging/core/marts), pruebas y documentación con dbt, y creación de dashboards.
+### Using the starter project
 
-## Contenido del repositorio
-- `models/`, `macros/`, `seeds/`, `snapshots/`, `tests/`, `analyses/` (dbt)
-- `docs/` (diagrama ERD y capturas de Power BI)
-- `powerbi/` (opcional: archivo .pbix o PDF/capturas)
+Try running the following commands:
+- dbt run
+- dbt test
 
-## Requisitos (local)
-- dbt 1.x con perfil en `~/.dbt/profiles.yml` (credenciales **no** se versionan)
 
-## Cómo ejecutar (dbt)
-```bash
-dbt deps
-dbt run
-dbt test
-# Documentación local
-dbt docs generate
-dbt docs serve
+### Resources:
+- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
+- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
+- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
+- Find [dbt events](https://events.getdbt.com) near you
+- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices

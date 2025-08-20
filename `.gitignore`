@@ -1,0 +1,29 @@
+dbt
+
+target/
+logs/
+dbt_packages/
+*.log
+
+Node
+
+node_modules/
+
+Python / notebooks
+
+pycache/
+.ipynb_checkpoints/
+
+Editores / OS
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+Entornos/secretos
+
+.env
+*.env
+*.key
+*.pem
